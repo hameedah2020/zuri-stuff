@@ -1,0 +1,120 @@
+/* don't forget to add hover effects for your buttons, check folder that came with the task 
+also there are details about colors, fonts and font-size there. don't forget to check there to avoid unnecessary stress*/
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 0, 95%);
+}
+main {
+  
+  
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.main-div {
+  width: 60%;
+  /*margin: auto;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.sedan-div {
+  background-color: #e38826;
+  border-bottom-left-radius: 3px; 
+  border-top-left-radius: 3px;
+}
+.suv-div {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury-div {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 3px; 
+  border-top-right-radius: 3px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  margin:20px;
+  padding-bottom:20px;
+  margin-left:35px;
+  
+}
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left:35px;
+  margin-top:10px;
+  
+}
+.sedan-button {
+  border-radius: 25px;
+  padding: 15px;
+  background-color: hsl(0, 0, 95%);
+  color: #e38826;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  cursor:pointer;
+  margin:20px;
+  margin-bottom: 30px;
+
+}
+.suv-button {
+  border-radius: 25px;
+  padding: 15px;
+  background-color: hsl(0, 0, 95%);
+  color: hsl(184, 100%, 22%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  cursor:pointer;
+  margin:20px;
+  margin-bottom: 30px;
+  
+}
+.luxury-button {
+  border-radius: 25px;
+  padding: 15px;
+  background-color:#f2f2f2 ;
+  color: hsl(179, 100%, 13%);
+  border: none;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  cursor:pointer;
+  margin:20px;
+  margin-bottom: 30px;
+}
+.sedan-button:active{
+    color:#f2f2f2 ;
+    background: #e38826;
+    border:1px solid white;
+
+}
+.suv-button:active{
+    background: hsl(184, 100%, 22%);
+    color:#f2f2f2;
+    border:1px solid white;
+
+
+}
+.luxury-button:active{
+    background: hsl(179, 100%, 13%);
+    color:#f2f2f2;
+    border:1px solid white;
+
+}
+img{
+    margin:20px;
+    margin-bottom:10px;}
